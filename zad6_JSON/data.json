@@ -1,0 +1,34 @@
+{
+  "skills": [
+    { "name": "HTML5 & CSS3" },
+    { "name": "JavaScript (ES6+)" },
+    { "name": "TypeScript" },
+    { "name": "Git & GitHub" },
+    { "name": "Responsive Web Design" },
+    { "name": "React & Next.js" },
+    { "name": "Vue.js" },
+    { "name": "Node.js & Express.js" },
+    { "name": "NestJS" },
+    { "name": "Docker" },
+    { "name": "GameDev" },
+    { "name": "WebSockets" }
+  ],
+  "projects": [
+    {
+      "title": "Web Gra Multiplayer (TypeScript)",
+      "description": "Gra wieloosobowa wykorzystujaca WebSockets. Wlasna biblioteka do optymalizacji przesylu danych do graczy."
+    },
+    {
+      "title": "Webowy Edytor Map",
+      "description": "Narzedzie przegladarkowe do gry, umozliwiajace odczyt i zapis map do plikow."
+    },
+    {
+      "title": "Symulator Ewolucji",
+      "description": "Symulacja doboru naturalnego cyfrowych mikroorganizmow z systemem genomu i mutacji."
+    },
+    {
+      "title": "Web Chat E2EE",
+      "description": "Aplikacja czatu z pelnym szyfrowaniem End-to-End (E2EE)."
+    }
+  ]
+}
