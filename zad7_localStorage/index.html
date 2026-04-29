@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zadanie 7 - Local Storage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="todo-card" aria-labelledby="todo-title">
+        <h1 id="todo-title">Todo List</h1>
+
+        <form id="todo-form" class="todo-form">
+          <input
+            id="todo-input"
+            type="text"
+            name="todo"
+            placeholder="Wpisz nowe zadanie"
+            autocomplete="off"
+          />
+          <button type="submit">Dodaj</button>
+        </form>
+
+        <ul id="todo-list"></ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
